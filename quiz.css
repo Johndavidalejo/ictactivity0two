@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+html {
+    background-color: #0000a3;
+    color: #ffff4d;
+    font-family: "Kode Mono", monospace;
+}
+
+.container {
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#question {
+    text-align: center;
+}
+
+#choice {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+#choice-1 {
+    margin-top: 15px;
+}
+
+#choice-2 {
+    margin-top: 15px;
+}
+
+#choice-3 {
+    margin-top: 15px;
+}
+
+#choice-1:hover {
+    color: #7df9ff;
+    transition: 250ms;
+}
+
+#choice-2:hover {
+    color: #7df9ff;
+    transition: 250ms;
+}
+
+#choice-3:hover {
+    color: #7df9ff;
+    transition: 250ms;
+}
+
+#explanation {
+    text-align: center;
+    padding-top: 25px;
+    opacity: 0;
+}
+
+#quiz-controller {
+    text-align: center;
+    padding-top: 25px;
+    opacity: 0;
+    padding-top: 50px;
+}
+
+#next-btn {
+    background-color: #0000a3;
+    border-style: solid;
+    border-color: #ffff4d;
+    font-family: "Kode Mono", monospace;
+    color: #ffff4d;
+    height: 50px;
+    width: 125px;
+    font-weight: bold;
+}
